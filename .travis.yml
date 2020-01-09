@@ -6,7 +6,7 @@ notifications:
   slack: theselftalk:EHiDWYYgq34Y172TrHTqA16W
 deploy:
   - provider: script
-    script: docker tag node-terraform-gitlab-provisioner node-terraform-gitlab-provisioner:$TRAVIS_TAG && docker push node-terraform-gitlab-provisioner:$TRAVIS_TAG
+    script: docker tag node-terraform-gitlab-provisioner jainnish94/node-terraform-gitlab-provisioner:$TRAVIS_TAG && docker push jainnish94/node-terraform-gitlab-provisioner:$TRAVIS_TAG
     on:
       tags: true
 env:
