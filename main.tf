@@ -36,7 +36,7 @@ variable "projects" {
 
 module "organization" {
   source           = "nishant-jain-94/organization/gitlab"
-  version          = "0.0.1"
+  version          = "1.0.0"
   gitlab_token     = lookup(local.workspaces[format("%s", terraform.workspace)], "gitlab_token", "")
   base_url         = lookup(local.workspaces[format("%s", terraform.workspace)], "base_url", "")
   users            = var.users
