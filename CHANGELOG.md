@@ -1,6 +1,7 @@
 # Changelog
 
-## v0.0.1 2020-01-09
+## v0.0.1 
+Published on 2020-01-09
 
 #### :rocket: Added
 - merge-convert-csv-to-json 
