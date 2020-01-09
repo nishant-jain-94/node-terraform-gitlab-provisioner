@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.0.2
+Published on 2020-01-09
+
+#### :zap: changed
+- Updated the version of the Terraform Module used in the main.tf
+
 ## v0.0.1 
 Published on 2020-01-09
 
